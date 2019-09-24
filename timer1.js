@@ -9,7 +9,6 @@ const alarmFunc = function (timesArr) {
   for (const time of timesArr) {
     let alarmTime = Number(time);
     if (Number.isFinite(alarmTime) && alarmTime >= 0) {
-      console.log(alarmTime);
       setTimeout(() => {
         process.stdout.write('\x07');
       }, alarmTime);
