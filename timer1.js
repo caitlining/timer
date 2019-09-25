@@ -1,6 +1,6 @@
 let alarmTimeArray = process.argv.slice(2);
 
-const alarmFunc = function (timesArr) {
+const alarmFunc = function(timesArr) {
 
   if (timesArr.length === 0) {
     return;
@@ -17,4 +17,3 @@ const alarmFunc = function (timesArr) {
 };
 
 alarmFunc(alarmTimeArray);
-
